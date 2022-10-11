@@ -5,30 +5,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <title>Maarten van de Goor</title>
 
     <!--Style Sheets-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
 
+
     <!--Scripts-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"
         defer></script>
+    <script src="https://kit.fontawesome.com/37534501e1.js" defer crossorigin="anonymous"></script>
+
+
 </head>
 
-<body class="bg-dark text-light">
+<body class="bg-dark text-white">
     <div class="container-fluid g-0">
-        <nav class="navbar navbar-expand-lg sticky-top bg-secondary">
+        <nav class="navbar navbar-dark navbar-expand-lg sticky-top bg-black">
             <div class="container">
-                <a class="navbar-brand " href="/index.html">Navbar</a>
-
+                <a class="navbar-brand ms-5 " href="/index.html">
+                    <img src="/images/Logo.png" width="30" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">About me</a>
-                        <a class="nav-link" href="#">My skills</a>
+                        <a class="nav-link" aria-current="page" href="/index.html">About me</a>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
@@ -36,7 +44,7 @@
                             </a>
                             <ul class="dropdown-menu dropdown-menu-dark">
                                 <li><a class="dropdown-item" href="/pages/pong.html">Pong</a></li>
-                                <li><a class="dropdown-item" href="/pages/acclivity.html">Acclivity</a></li>
+                                <li><a class="dropdown-item active" href="/pages/acclivity.html">Acclivity</a></li>
                                 <li><a class="dropdown-item" href="/pages/personalWebsite.html">Personal Website</a>
                                 </li>
                             </ul>
@@ -46,17 +54,173 @@
             </div>
         </nav>
         <br>
-        <div class="container">
-            <div class="row text-center">
-                <div class="col border border-light">
-                    Column
+        <div class="container ps-5 pe-5">
+            <div class="row">
+                <div class="col-lg-4 ">
+                    <div class="card text-bg-secondary shadow-lg mt-3 pb-3 rounded ">
+                        <img src="/images/Project screenshots/Acclivity/main menu.png" class="card-img-top img-fluid"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Quick info</h5>
+
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-home"></i> Geldrop</li>
+                                <li><i class="fas fa-birthday-cake"></i> 16-09-1998</li>
+                                <li><i class="fas fa-book-open"></i><a href="https://www.linkedin.com"
+                                        class="text-reset text-decoration-none"> LinkedIn</a></li>
+                                <li><i class="fas fa-cloud"></i><a href="https://github.com/MaartenvdGoor"
+                                        class="text-reset text-decoration-none"> Github</a></li>
+                            </ul>
+                            <hr>
+                            <br><br><br><br><br><br><br><br><br><br><br>
+                        </div>
+                    </div>
                 </div>
-                <div class="col border border-light">
-                    Column
+
+                <div class="col-lg-8 ">
+                    <h1 class="mt-2 text-center">About this project</h1>
+                    <div class="card  text-bg-secondary shadow-lg p-2 mb-3 mt-2 rounded bg-secondary">
+                        <div class="card-body ">
+                            <h1 class="card-title">Acclivity</h1>
+                            2D platformer
+                            <br>
+                            <br>
+                            <p>
+                                Acclivity is a 2D platform game made for android. The goal of the game is to solve
+                                different types of puzzles. Made by 2 people as part of a college assignment. I was
+                                responsible for the movement system and level design. The project was done in C# with
+                                the Unity game engine. I learned much about what makes a game challenging but fun to
+                                play. I also learned a lot about development itself. How to make a character move
+                                satisfyingly with mobile controls
+
+
+                            </p>
+
+                        </div>
+
+                    </div>
+                    <h1 class="text-center">Tech used</h1>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card  text-bg-secondary shadow-lg p-3 mb-3 mt-2 rounded bg-secondary">
+                                <img src="/images/CSharp.png" class="card-img-top img-fluid" alt="...">
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card  text-bg-secondary shadow-lg p-3 mb-3 mt-2 rounded bg-secondary">
+                                <img src="/images/unity.png" class="card-img-top img-fluid" alt="...">
+                                <hr>
+                                
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col border border-light">
-                    Column
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <h1>My Projects</h1>
+                    <div id="carouselExampleControls" class="carousel slide mb-4" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card bg-secondary">
+
+                                    <div class="card-body">
+                                        <div class="row justify-content-center">
+                                            <div class="col-xl-4 ms-1 text-center">
+                                                <br><br><br>
+                                                <div class="card bg-dark">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Acclivity</h5>
+                                                        <h6 class="card-subtitle mb-2 text-muted">Game development</h6>
+                                                        <p class="card-text">
+                                                            One of the first proper games i made.
+                                                            made for a school Project
+                                                            <br>
+                                                            Tech used: Unity and C#
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/Project screenshots/Acclivity/main menu.png"
+                                                    class="card-img" alt="...">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card bg-secondary">
+
+                                    <div class="card-body">
+                                        <div class="row justify-content-center">
+                                            <div class="col-xl-4 ms-1 text-center">
+                                                <br><br><br>
+                                                <div class="card bg-dark">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Balls</h5>
+                                                        <h6 class="card-subtitle mb-2 text-muted">Game development</h6>
+                                                        <p class="card-text">
+                                                            A schoolproject where i had to implement 2 games into 1.
+                                                            making sure to have both use the same code as much as
+                                                            possible
+                                                            <br>
+                                                            Tech used: Unity, C#
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/Project screenshots/Pong/Main menu.png"
+                                                    class="card-img" alt="...">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card bg-secondary">
+
+                                    <div class="card-body">
+                                        <div class="row justify-content-center">
+                                            <div class="col-xl-4 ms-1 text-center">
+                                                <br><br><br>
+                                                <div class="card bg-dark">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Personal site</h5>
+                                                        <h6 class="card-subtitle mb-2 text-muted">Web development</h6>
+                                                        <p class="card-text">
+                                                            First site i've made in PHP. it was a challenge figuring out
+                                                            how to connect a mysql database to a webpage
+                                                            <br>
+                                                            Tech used: PHP, CSS, HTML5, MYSQL
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/Project screenshots/Website/Home page.png"
+                                                    class="card-img" alt="...">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>

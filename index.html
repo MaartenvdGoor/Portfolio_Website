@@ -8,8 +8,10 @@
     <title>Maarten van de Goor</title>
 
     <!--Style Sheets-->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
 
 
     <!--Scripts-->
@@ -21,11 +23,13 @@
 
 </head>
 
-<body class="bg-dark text-light">
+<body class="bg-dark text-white">
     <div class="container-fluid g-0">
-        <nav class="navbar navbar-expand-lg sticky-top   bg-secondary">
+        <nav class="navbar navbar-dark navbar-expand-lg sticky-top bg-black">
             <div class="container">
-                <a class="navbar-brand " href="/index.html">Navbar</a>
+                <a class="navbar-brand ms-5 " href="/index.html">
+                    <img src="images/Logo.png" width="30" alt="">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -34,7 +38,6 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="#">About me</a>
-                        <a class="nav-link" href="#">My skills</a>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
@@ -74,7 +77,7 @@
                 </div>
 
                 <div class="col-lg-8 ">
-                    <h1 class="mt-2">About me</h1>
+                    <h1 class="mt-2 text-center">About me</h1>
                     <div class="card  text-bg-secondary shadow-lg p-2 mb-3 mt-2 rounded bg-secondary">
                         <div class="card-body ">
                             <h1 class="card-title">Welcome!</h1>
@@ -100,10 +103,10 @@
                         </div>
 
                     </div>
-                    <h1>My experience</h1>
+                    <h1 class="text-center">My experience</h1>
                     <div class="row">
                         <div class="col-md-3">
-                            <div class="card  text-bg-secondary shadow-lg p-3 mb-5 mt-2 rounded bg-secondary">
+                            <div class="card  text-bg-secondary shadow-lg p-3 mb-3 mt-2 rounded bg-secondary">
                                 <img src="/images/CSharp.png" class="card-img-top img-fluid" alt="...">
                                 <hr>
                                 <div class="card-body text-center ">
@@ -113,7 +116,7 @@
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="card  text-bg-secondary shadow-lg p-3 mb-5 mt-2 rounded bg-secondary">
+                            <div class="card  text-bg-secondary shadow-lg p-3 mb-3 mt-2 rounded bg-secondary">
                                 <img src="/images/HTML.png" class="card-img-top img-fluid" alt="...">
                                 <hr>
                                 <div class="card-body text-center ">
@@ -123,7 +126,7 @@
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="card  text-bg-secondary shadow-lg p-3 mb-5 mt-2 rounded bg-secondary">
+                            <div class="card  text-bg-secondary shadow-lg p-3 mb-3 mt-2 rounded bg-secondary">
                                 <img src="/images/javascript.png" class="card-img-top img-fluid" alt="...">
                                 <hr>
                                 <div class="card-body text-center ">
@@ -133,7 +136,7 @@
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="card  text-bg-secondary shadow-lg p-3 mb-5 mt-2 rounded bg-secondary">
+                            <div class="card  text-bg-secondary shadow-lg p-3 mb-3 mt-2 rounded bg-secondary">
                                 <img src="/images/unity.png" class="card-img-top img-fluid" alt="...">
                                 <hr>
                                 <div class="card-body text-center ">
@@ -143,6 +146,108 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <h1>My Projects</h1>
+                    <div id="carouselExampleControls" class="carousel slide mb-4" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card bg-secondary">
+
+                                    <div class="card-body">
+                                        <div class="row justify-content-center">
+                                            <div class="col-xl-4 ms-1 text-center">
+                                                <br><br><br>
+                                                <div class="card bg-dark">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Acclivity</h5>
+                                                        <h6 class="card-subtitle mb-2 text-muted">Game development</h6>
+                                                        <p class="card-text">
+                                                            One of the first proper games i made.
+                                                            made for a school Project
+                                                            <br>
+                                                            Tech used: Unity and C#
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/Project screenshots/Acclivity/main menu.png"
+                                                    class="card-img" alt="...">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card bg-secondary">
+
+                                    <div class="card-body">
+                                        <div class="row justify-content-center">
+                                            <div class="col-xl-4 ms-1 text-center">
+                                                <br><br><br>
+                                                <div class="card bg-dark">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Balls</h5>
+                                                        <h6 class="card-subtitle mb-2 text-muted">Game development</h6>
+                                                        <p class="card-text">
+                                                            A schoolproject where i had to implement 2 games into 1. making sure to have both use the same code as much as possible
+                                                            <br>
+                                                            Tech used: Unity, C#
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/Project screenshots/Pong/Main menu.png"
+                                                    class="card-img" alt="...">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card bg-secondary">
+
+                                    <div class="card-body">
+                                        <div class="row justify-content-center">
+                                            <div class="col-xl-4 ms-1 text-center">
+                                                <br><br><br>
+                                                <div class="card bg-dark">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Personal site</h5>
+                                                        <h6 class="card-subtitle mb-2 text-muted">Web development</h6>
+                                                        <p class="card-text">
+                                                            First site i've made in PHP. it was a challenge figuring out how to connect a mysql database to a webpage
+                                                            <br>
+                                                            Tech used: PHP, CSS, HTML5, MYSQL
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/Project screenshots/Website/Home page.png"
+                                                    class="card-img" alt="...">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
