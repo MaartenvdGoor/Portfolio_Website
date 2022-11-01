@@ -5,29 +5,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Personal website</title>
 
     <!--Style Sheets-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
 
+
     <!--Scripts-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"
         defer></script>
+    <script src="https://kit.fontawesome.com/37534501e1.js" defer crossorigin="anonymous"></script>
+
+
 </head>
 
-<body class="bg-dark text-light">
+<body class="bg-dark text-white">
     <div class="container-fluid g-0">
-        <nav class="navbar navbar-expand-lg sticky-top bg-secondary">
+        <nav class="navbar navbar-dark navbar-expand-lg sticky-top bg-black">
             <div class="container">
-                <a class="navbar-brand " href="/index.html">Navbar</a>
-
+                <a class="navbar-brand ms-5 " href="/index.html">
+                    <img src="../images/Logo.png" width="30" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">About me</a>
-                        <a class="nav-link" href="#">My skills</a>
+                        <a class="nav-link" aria-current="page" href="/index.html">About me</a>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
@@ -36,7 +45,8 @@
                             <ul class="dropdown-menu dropdown-menu-dark">
                                 <li><a class="dropdown-item" href="/pages/pong.html">Pong</a></li>
                                 <li><a class="dropdown-item" href="/pages/acclivity.html">Acclivity</a></li>
-                                <li><a class="dropdown-item" href="/pages/personalWebsite.html">Personal Website</a>
+                                <li><a class="dropdown-item active" href="/pages/personalWebsite.html">Personal
+                                        Website</a>
                                 </li>
                             </ul>
                         </li>
@@ -45,17 +55,141 @@
             </div>
         </nav>
         <br>
-        <div class="container">
-            <div class="row text-center">
-                <div class="col border border-light">
-                    Column
+        <div class="container ps-5 pe-5">
+            <div class="row">
+                <div class="col-lg-4 ">
+                    <div class="card text-bg-secondary shadow-lg mt-3 pb-3 rounded ">
+                        <img src="../images/Project screenshots/Website/About me.png" class="card-img-top img-fluid"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Quick info</h5>
+
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-home"></i> School project</li>
+                                <li><i class="fas fa-birthday-cake"></i> 2021</li>
+                            </ul>
+                            <hr>
+                            <br><br><br><br><br><br><br><br><br><br><br>
+                        </div>
+                    </div>
                 </div>
-                <div class="col border border-light">
-                    Column
+
+                <div class="col-lg-8 ">
+                    <h1 class="mt-2 text-center">About this project</h1>
+                    <div class="card  text-bg-secondary shadow-lg p-2 mb-3 mt-2 rounded bg-secondary">
+                        <div class="card-body ">
+                            <h1 class="card-title">Personal Website</h1>
+                            Web development
+                            <br>
+                            <br>
+                            <p>
+                                One of the very first websites I’ve made. This website is ment as a small introduction
+                                to who I am, made for an assignment for school. I learned a lot of things about HTML and
+                                CSS which I later expanded to use PHP in combination with an MYSQL Database. The website
+                                has a register and login function.
+
+
+                            </p>
+
+                        </div>
+
+                    </div>
+                    <h1 class="text-center">Tech used</h1>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card  text-bg-secondary shadow-lg p-3 mb-3 mt-2 rounded bg-secondary">
+                                <img src="../images/html.png" class="card-img-top img-fluid" alt="...">
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card  text-bg-secondary shadow-lg p-3 mb-3 mt-2 rounded bg-secondary">
+                                <img src="../images/PHP.png" class="card-img-top img-fluid" alt="...">
+                                <hr>
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col border border-light">
-                    Column
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <h1>The project</h1>
+                    <div id="carouselExampleControls" class="carousel slide mb-4" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+
+                                <div class="card bg-secondary">
+
+                                    <div class="card-body">
+                                        <div class="row justify-content-center">
+                                            <div class="col-xl-4 ms-1 text-center">
+                                                <br><br><br>
+                                                <div class="card bg-dark">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Login</h5>
+                                                        <h6 class="card-subtitle mb-2 text-muted">Web development
+                                                        </h6>
+                                                        <p class="card-text">
+                                                            This was my first experience with PHP. Learning how to
+                                                            connect to a Database and using the data.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="../images/Project screenshots/Website/Login.png"
+                                                    class="card-img" alt="...">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card bg-secondary">
+
+                                    <div class="card-body">
+                                        <div class="row justify-content-center">
+                                            <div class="col-xl-4 ms-1 text-center">
+                                                <br><br><br>
+                                                <div class="card bg-dark">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Personal site</h5>
+                                                        <h6 class="card-subtitle mb-2 text-muted">Web development
+                                                        </h6>
+                                                        <p class="card-text">
+                                                            The assignment consisted of making a website that you
+                                                            can log in to. It needed an about me section, what type
+                                                            of set-up you had at home and a page to your choice. I
+                                                            decided to do a blog where someone would post about
+                                                            their day.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="../images/Project screenshots/Website/Home page.png"
+                                                    class="card-img" alt="...">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>
